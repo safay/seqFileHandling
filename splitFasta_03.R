@@ -4,8 +4,8 @@
 library(Biostrings)
 
 # set user-defined variables here
-filepath <- '~/assemblies/Trinity_03_J.fasta'       # where is the file you want to split?
-outFilePrefix <- '~/assemblies/Trinity_03_J_splits/Trinity_03_J_split_'  # the prefix for the output files
+filepath <- '~/yourDirectory/someBigSetOfSeqs.fasta'       # where is the file you want to split?
+outFilePrefix <- '~/yourDirectory/splitDir/someBigSetOfSeqs_split_'  # the prefix for the output files
 seqsPerFile <- 500                                  # how many sequences do you want in each file?
 
 # load some data, initialize more variables
